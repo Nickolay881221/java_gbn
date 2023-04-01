@@ -14,6 +14,6 @@ public class HomeProject1 {
             sum += i;
             mult *= i;
         }
-        System.out.printf("sum of numbers: %d\n multiplication of numbers: %d\n", sum, mult);
+        System.out.printf("sum of numbers: %d\nmultiplication of numbers: %d\n", sum, mult);
         }
     }
