@@ -42,7 +42,7 @@ public class Task2 {
         /* log.log(Level.INFO, "тестовое логирование"); */
         Logger log = Logger.getLogger(Task2.class.getName());
         ConsoleHandler ch = new ConsoleHandler();
-        /*  FileHandler fh = new FileHandler("log.xml");  */// получается только с указанием абсолютного пути
+        /*  FileHandler fh = new FileHandler("log.xml");  */// с выводом в файл возникает ошибка, похоже дело в конфигурации. Разбираюсь.
         log.addHandler(ch);
         SimpleFormatter sFormat = new SimpleFormatter();
         /* XMLFormatter xml = new XMLFormatter(); */
